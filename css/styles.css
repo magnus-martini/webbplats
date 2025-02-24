@@ -1,0 +1,67 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header, footer {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+    border-bottom: 2px solid #0056b3;
+}
+
+main {
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    color: #00ccff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+a {
+    color: #00ccff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff6600;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    header, footer {
+        padding: 0.5rem;
+    }
+
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+}
+body {
+    background-image: url('path/to/your-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  body { background-color: lightblue; }
+  body {
+    background-image: url("images/image bakgrund/batman.jpg");
+    background-size: cover; /* Eller contain, beroende på hur du vill att bilden ska visas */
+    background-repeat: no-repeat; /* Om du inte vill att bilden ska upprepas */
+}
